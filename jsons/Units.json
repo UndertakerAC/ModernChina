@@ -29,17 +29,29 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "AH-64 Apache",
-		"unitType": "Helicopter",
-		"uniqueTo": "The United States",
-		"movement": 7,
-		"strength": 70,
-		"cost": 600,
-		"requiredTech": "Mobile Tactics",
+		"name": "051-C type destroyer",
+		"unitType": "Melee Water",
+		"uniqueTo": "People's Republic of China",
+		"movement": 6,
+		"strength": 75,
+		"interceptRange": 4
+		"cost": 575,
+		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"promotions": ["Mobility I"],
-		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Bomber] units>",
+		"[+250]% Strength <vs [Helicopter] units>", "[-25]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "WZ-10",
+		"unitType": "Helicopter",
+		"uniqueTo": "People's Republic of China",
+		"movement": 5,
+		"strength": 125,
+		"cost": 825,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Consumes [2] [Aluminum]"],
 		"attackSound": "machinegun"
 	},
 	{
