@@ -1,0 +1,151 @@
+[
+{
+		"name": "CIA Agent",
+		"unitType": "Civilian",
+		"uniqueTo": "The United States",
+		"movement": 3,
+		"cost": 300,
+		"requiredTech": "Radio",
+		"uniques": [
+            "[+10]% Strength bonus for [Military] units within [8] tiles", "[+8] Sight", "Can see over obstacles",
+			"May enter foreign tiles without open borders", "Uncapturable"],
+		"promotions": ["Ignore terrain cost"],
+
+		"movement": 4
+	}
+	{
+		"name": "Diplomat",
+		"unitType": "Civilian",
+		"uniqueTo": "The United States",
+		"movement": 5,
+		"cost": 300,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Frontier Sharpshooter",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "The United States",
+		"range": 3,
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 40,
+		"cost": 150,
+		"requiredTech": "Rifling",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marksman",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "The United States",
+		"range": 4,
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 50,
+		"cost": 250,
+		"requiredTech": "Ballistics",
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "US Marine",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The United States",
+		"replaces": "Marine",
+		"movement": 3,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+2] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "M1 Abrams",
+		"unitType": "Armored", 
+		"uniqueTo": "The United States",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 120,
+		"cost": 500
+		"requiredTech": "Lasers",
+		"promotions": ["Charge"],
+		"uniques": ["[+100]% Strength <vs [Gunpowder] units>", "[+50]% to Flank Attack bonuses",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can move after attacking"],
+		"attackSound": "shot"
+	}
+	{
+		"name": "F-35 Lightning",
+		"unitType": "Fighter",
+		"uniqueTo": "The United States",
+		"replaces": "Jet Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 15,
+		"interceptRange": 15,
+		"cost": 600,
+		"requiredTech": "Lasers",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
+		"[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+150]% Strength <vs [Melee Water] units>",
+		"[2] extra interceptions may be made per turn", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "AH-64 Apache",
+		"unitType": "Helicopter",
+		"uniqueTo": "The United States",
+		"movement": 7,
+		"strength": 70,
+		"cost": 600,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"promotions": ["Mobility I"],
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Delta Force",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The United States",
+		"movement": 3,
+		"strength": 85,
+		"cost": 500,
+		"requiredTech": "Mobile Tactics",
+		"promotions": ["Ignore terrain cost", "Drill II"],
+		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit",
+			"No damage penalty for wounded units", "Heals [10] damage if it kills a unit", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Nimitz Class Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "The United States",
+		"movement": 5,
+		"strength": 80,
+		"cost": 600,
+		"requiredTech": "Lasers",
+		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
+	},
+	{
+		"name": "B2 Spirit",
+		"unitType": "Bomber",
+		"uniqueTo": "The United States",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 30,
+		"cost": 600,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight",
+			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+	]
