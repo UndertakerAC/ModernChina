@@ -68,14 +68,15 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Nimitz Class Carrier",
+		"name": "Shandong",
 		"unitType": "Aircraft Carrier",
-		"uniqueTo": "The United States",
+		"replaces": "Aircraft Carrier",
+		"uniqueTo": "People's Republic of China",
 		"movement": 5,
-		"strength": 80,
-		"cost": 600,
+		"strength": 70,
+		"cost": 700,
 		"requiredTech": "Lasers",
-		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
 	},
 	{
 		"name": "B2 Spirit",
