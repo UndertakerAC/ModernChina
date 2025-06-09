@@ -32,9 +32,9 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Great Chinese socialism",
 		"uniques": ["[+25]% Gold [in all cities]", "[+25]% Production [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
-			"Allied City-States will occasionally gift Great People", "[+100]% of excess happiness converted to [Gold]", "[+1 Gold, +1 Production] 
-			from all "Culture" buildings", "[+1 Gold, +1 Production] from all "Science" buildings", "[+2]% Production from all [Production]
-		buildings", "[+2]% Science from all "Science" buildings", "[+25]% Production when constructing [Gold] buildings [in all cities]"],
+			"Allied City-States will occasionally gift Great People", "[+100]% of excess happiness converted to [Gold]", "[+1 Gold, +1 Production] from all [Culture] buildings", "[+1 Gold, +1 Production] from all [Science] buildings", 
+			"[+2]% Production from all [Production] buildings",
+			"[+2]% Science from all [Science] buildings", "[+25]% Production when constructing [Gold] buildings [in all cities]"],
 
 		
 		"cities": ["Beijing", "Shanghai", "Hong Kong", "Taiwan", "Chongqing", "Guangzhou", "Shenzhen", "Nanking",
