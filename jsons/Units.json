@@ -94,7 +94,8 @@
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
 		"promotions": "Air Repair"
-		"unques": ["[+25]% Strength <vs [City]>"]
+		"unques": ["[+25]% Strength <vs [City]>"],
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Xian H-20",
